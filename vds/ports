@@ -24,6 +24,14 @@ Fetching 3 new ports or files... done.
 ...
 Building new INDEX files... done.
 
-## Далее:
+Далее:
 
 # portsnap fetch update
+
+Установка из порта:
+
+# cd /usr/ports/<category>/<port>
+# make config-recursive
+# make install clean
+
+Далее rehash (для tcsh) или hash -r (для sh)
