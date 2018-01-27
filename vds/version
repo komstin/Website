@@ -1,2 +1,7 @@
 # freebsd-version
 11.1-RELEASE
+
+# freebsd-update fetch
+# freebsd-update install
+# freebsd-version
+11.1-RELEASE-p6
