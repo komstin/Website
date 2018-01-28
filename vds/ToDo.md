@@ -1,4 +1,4 @@
-- [ ] Set TFA for VMmanager 
+- [x] Set TFA for VMmanager 
 - [ ] Change root password 
 - [x] Change SSH port 
 - [ ] Set key access 
