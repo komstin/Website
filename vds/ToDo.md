@@ -7,5 +7,6 @@
 
 
 - [ ] Use Runit instead if Init script 
++ https://github.com/purcell/rails-runit
 + https://habrahabr.ru/post/83775/ 
 + https://gist.github.com/czarneckid/4639793
