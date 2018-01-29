@@ -7,5 +7,5 @@
 
 
 - [ ] Use Runit instead if Init script 
-> https://habrahabr.ru/post/83775/
-> https://gist.github.com/czarneckid/4639793
++ https://habrahabr.ru/post/83775/
++ https://gist.github.com/czarneckid/4639793
