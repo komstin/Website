@@ -4,7 +4,9 @@
 - [x] Change SSH port 
 - [ ] Set key access 
 - [ ] Deny root access 
-
+- [x] Deploy FreeBSD Ports
+- [x] Install mc
+- [ ] Install screen
 
 - [ ] Use Runit instead if Init script 
 + https://github.com/purcell/rails-runit
