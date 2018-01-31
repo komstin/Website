@@ -19,3 +19,5 @@
 + /usr/ports/lang/ruby25
 - [ ] Install Ruby on Rails 5.1.4
 + /usr/ports/www/rubygem-rails5
+- [ ] Install PostgreSQL
++ /usr/ports/databases/postgresql96-client, /usr/ports/databases/postgresql96-server
