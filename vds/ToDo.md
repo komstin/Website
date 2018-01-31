@@ -1,9 +1,8 @@
 - [x] Set TFA for VMmanager 
 - [ ] Change root password 
-- [ ] Create new user
-- [x] Change SSH port 
+- [ ] Create new sudo user for administration + unprivileged user for deployment
+- [x] Change SSH port + deny root access
 - [ ] Set key access 
-- [ ] Deny root access 
 - [x] Deploy FreeBSD Ports
 - [x] Install mc
 + /usr/ports/misc/mc
@@ -19,6 +18,7 @@
 + /usr/ports/lang/ruby25
 - [ ] Install Ruby on Rails 5.1.4
 + /usr/ports/www/rubygem-rails5
-- [ ] Install PostgreSQL
+- [ ] Install PostgreSQL ? or MariaDB ?
 + /usr/ports/databases/postgresql96-client, /usr/ports/databases/postgresql96-server
+- [ ] Install Spree app
 - [ ] Deploy seed data
