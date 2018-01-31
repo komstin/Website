@@ -8,6 +8,8 @@
 + /usr/ports/misc/mc
 - [ ] Install screen
 + /usr/ports/sysutils/screen
+- [ ] Install sudo
++ /usr/ports/security/sudo
 
 - [ ] Use Runit instead if Init script 
 + https://github.com/purcell/rails-runit
