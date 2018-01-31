@@ -21,3 +21,4 @@
 + /usr/ports/www/rubygem-rails5
 - [ ] Install PostgreSQL
 + /usr/ports/databases/postgresql96-client, /usr/ports/databases/postgresql96-server
+- [ ] Deploy seed data
