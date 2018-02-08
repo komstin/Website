@@ -1,0 +1,15 @@
+in gemfile
+  gem 'puma'
+
+bundle install
+
+in /etc/nginx/sites-enabled/default
+  server {
+       listen 80;
+       location /{
+            proxy_pass http://localhost:3000;
+                  }
+  }
+  
+sudo service nginx start
+rails s puma
