@@ -1,3 +1,18 @@
 RoR example:
 git clone https://github.com/phusion/passenger-ruby-rails-demo.git
 cd passenger-ruby-rails-demo
+
+in Gemfile:
+gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"
+
+Install:
+cd /path-to-your-app
+bundle install
+
+Run:
+[bundle exec passenger start --or--]
+bundle exec rails server
+
+Stop:
+cd /path-to-your-app
+bundle exec passenger stop
