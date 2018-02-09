@@ -1,0 +1,3 @@
+RoR example:
+git clone https://github.com/phusion/passenger-ruby-rails-demo.git
+cd passenger-ruby-rails-demo
