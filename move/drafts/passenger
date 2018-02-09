@@ -4,6 +4,7 @@ cd passenger-ruby-rails-demo
 
 in Gemfile:
 gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"
+[gen 'passenger']
 
 Install:
 cd /path-to-your-app
