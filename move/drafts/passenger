@@ -12,6 +12,7 @@ bundle install
 
 Run:
 [bundle exec passenger start --or--]
+[bundle exec passenger start -p 8081 -a <IP>]
 bundle exec rails server
 
 Stop:
