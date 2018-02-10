@@ -6,8 +6,12 @@
       passenger_ruby /usr/local/bin/ruby18;
       ...
     server {
-    passenger_enabled on;
+      listen       <ip>:<port>;
+      server_name  <host>;
+      root /home/share/www/test/public;
+      passenger_enabled on;
+      rails_spawn_method smart;
+      rails_env development;
     ...
     }
   }
-  
