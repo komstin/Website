@@ -1,0 +1,13 @@
+https://www.phusionpassenger.com/library/install/nginx/install/oss/rubygems_norvm/
+
+gem install passenger --no-rdoc --no-ri
+passenger-install-nginx-module
+sudo passenger-config validate-install
+sudo passenger-memory-stats
+
+Start Nginx:
+sudo /opt/nginx/sbin/nginx
+
+Stop Nginx:
+sudo kill $(cat /opt/nginx/logs/nginx.pid)
+
