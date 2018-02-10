@@ -1,34 +1,10 @@
 https://www.freebsd.org/doc/ru_RU.KOI8-R/books/handbook/ports-using.html
 
 # portsnap fetch
-Looking up portsnap.FreeBSD.org mirrors... 6 mirrors found.
-Fetching public key from ec2-eu-west-1.portsnap.freebsd.org... done.
-Fetching snapshot tag from ec2-eu-west-1.portsnap.freebsd.org... done.
-Fetching snapshot metadata... done.
-Fetching snapshot generated at Sat Jan 27 03:02:45 MSK 2018:
-11a2da8372e48c574c93349ccfbe6efa28052aa95fc210100% of   78 MB 9354 kBps 00m09s
-Extracting snapshot... done.
-Verifying snapshot integrity... done.
-Fetching snapshot tag from ec2-eu-west-1.portsnap.freebsd.org... done.
-Fetching snapshot metadata... done.
-Updating from Sat Jan 27 03:02:45 MSK 2018 to Sat Jan 27 09:44:21 MSK 2018.
-Fetching 5 metadata patches... done.
-Applying metadata patches... done.
-Fetching 0 metadata files... done.
-Fetching 8 patches. 
-(8/8) 100.00%  done.                             
-done.
-Applying patches... 
-done.
-Fetching 3 new ports or files... done.
-
 # portsnap extract
-...
-Building new INDEX files... done.
+далее: # portsnap fetch update
 
-Далее:
-
-# portsnap fetch update
+portmaster
 
 Установка из порта:
 
