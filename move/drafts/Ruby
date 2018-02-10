@@ -1,2 +1,3 @@
-cd /usr/ports/devel/ruby-gems
-make install clean
+/usr/ports/lang/ruby
+/usr/ports/devel/ruby-gems
+/usr/ports/www/rubygem-rails
