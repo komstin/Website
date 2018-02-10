@@ -1,3 +1,4 @@
+  /usr/ports/www/nginx
   Options: https://gist.github.com/geoffgarside/855302
   
   http {
