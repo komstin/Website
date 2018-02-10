@@ -12,4 +12,7 @@ Stop Nginx:
 sudo kill $(cat /opt/nginx/logs/nginx.pid)
 
 -------
+https://forum.lissyara.su/viewtopic.php?t=45019
 /usr/ports/www/rubygem-passenger
+
+cd /usr/ports/www/rubygem-passenger && make FLAVOR="nginx"
