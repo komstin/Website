@@ -1,3 +1,5 @@
+  Options: https://gist.github.com/geoffgarside/855302
+  
   http {
       ...
       passenger_root /usr/local/lib/ruby/gems/1.8/gems/passenger-2.2.8;
