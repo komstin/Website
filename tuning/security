@@ -5,3 +5,4 @@ https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet
 http://guides.rubyonrails.org/security.html
 https://github.com/rubysec/bundler-audit
 https://blog.tentamen.eu/ruby-on-rails-bottom-up-security-hardening-the-servers/
+https://serverfault.com/questions/429188/how-to-properly-secure-unicorn-ror-server-on-ubuntu-or-harden-ror-application
