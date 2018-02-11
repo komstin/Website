@@ -1,0 +1,7 @@
+cd /usr/ports/databases/mariadb101-server
+# make config-recursive
+# make install clean
+
+in /etc/rc.conf: mysql_enable=YES
+# /usr/local/etc/rc.d/mysql-server start
+# mysqladmin -u root password 'password'
