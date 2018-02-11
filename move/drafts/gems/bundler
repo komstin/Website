@@ -1,6 +1,6 @@
 /usr/ports/sysutils/rubygem-bundler
 
-bundle install —without test --path vendor/bundle
+bundle install —without test --path vendor/bundle --binstubs
 echo '/vendor/bundle' >> .gitignore
 bundle show
 
