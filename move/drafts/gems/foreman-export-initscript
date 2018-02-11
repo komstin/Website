@@ -1,6 +1,7 @@
 bundle exec foreman export initscript /etc/init.d
 
 --------------
+https://rubygems.org/gems/foreman-export-initscript
 https://github.com/webgradus/foreman-export-initscript
 https://github.com/mpospelov/foreman-export-initscript
 https://github.com/springernature/foreman-export-nature
