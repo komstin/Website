@@ -1,3 +1,13 @@
+bundle install —without test --path vendor/bundle
+echo '/vendor/bundle' >> .gitignore
+bundle show
+
+bundle lock
+bundle install --relock
+
+bundle pack
+
+-----------
 https://rubygems.org/gems/bundler
 https://github.com/bundler/bundler
 http://bundler.io/
