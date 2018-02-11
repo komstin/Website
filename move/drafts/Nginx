@@ -18,3 +18,6 @@ in /etc/rc.conf: nginx_enable=YES
     ...
     }
   }
+
+---------
+https://habrahabr.ru/sandbox/27565/
