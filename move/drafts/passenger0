@@ -16,3 +16,10 @@ https://forum.lissyara.su/viewtopic.php?t=45019
 /usr/ports/www/rubygem-passenger
 
 cd /usr/ports/www/rubygem-passenger && make FLAVOR="nginx"
+
+
+----------
+https://www.phusionpassenger.com/
+https://www.phusionpassenger.com/library/walkthroughs/start/ruby.html
+https://www.8host.com/blog/kratkij-obzor-veb-serverov-dlya-prilozhenij-ruby/
+https://habrahabr.ru/post/278735/
