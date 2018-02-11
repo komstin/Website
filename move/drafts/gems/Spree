@@ -1,1 +1,17 @@
+cd santehopttver
 
+in Gemfile:
+gem 'spree', '~> 3.3'
+gem 'spree_auth_devise', '~> 3.3'
+gem 'spree_gateway', '~> 3.3'
+
+bundle install
+
+rails g spree:install --user_class=Spree::User
+rails g spree:auth:install
+rails g spree_gateway:install
+
+$ rails server
+
+-------
+https://guides.spreecommerce.org/developer/getting_started_tutorial.html
