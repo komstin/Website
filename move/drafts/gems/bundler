@@ -1,3 +1,5 @@
+/usr/ports/sysutils/rubygem-bundler
+
 bundle install —without test --path vendor/bundle
 echo '/vendor/bundle' >> .gitignore
 bundle show
@@ -6,6 +8,9 @@ bundle lock
 bundle install --relock
 
 bundle pack
+
+bundle exec rails server
+bundle exec rake db:migrate
 
 -----------
 https://rubygems.org/gems/bundler
