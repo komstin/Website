@@ -1,0 +1,1 @@
+https://habr.com/company/mailru/blog/350686/
