@@ -6,3 +6,5 @@
 # freebsd-version
 11.1-RELEASE-p6 (27.01.2018)
 11.1-RELEASE-p15 (09.11.2018)
+
+# freebsd-update -r 11.2-RELEASE upgrade
