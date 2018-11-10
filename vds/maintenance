@@ -2,4 +2,9 @@
 # freebsd-update fetch
 # freebsd-update install
 
+##
+# freebsd-update -r 11.2-RELEASE upgrade
+##
+
+
 # portsnap fetch update
