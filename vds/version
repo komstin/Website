@@ -8,4 +8,7 @@
 11.1-RELEASE-p15 (09.11.2018)
 
 # freebsd-update -r 11.2-RELEASE upgrade
-# /usr/sbin/freebsd-update install (run, reboot, run)
+# /usr/sbin/freebsd-update install
+# shutdown -r now
+# /usr/sbin/freebsd-update install
+
