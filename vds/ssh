@@ -1,0 +1,11 @@
+С клиентской стороны:
+$ sudo apt install openssh-server openssh-clients
+$ ssh-keygen (passphrase)
+$ cat ~/.ssh/id_rsa.pub | ssh root@ip-адрес-сервера "cat >> ~/.ssh/authorized_keys"
+
+С серверной стороны:
+-> /etc/ssh/sshd_config:
+AuthorizedKeysFile .ssh/authorized_keys
+PasswordAuthentication no
+
+# service sshd restart
