@@ -4,8 +4,17 @@
 
 mc
 screen
-sudo
 
+sudo:
+$ su
+# cd /usr/ports/security/sudo 
+# make install clean
+# chmod u+w sudoers
+-> /usr/local/etc/sudoers
+root ALL=(ALL) ALL
+username ALL=(ALL) ALL
 
 URLs
 https://www.vultr.com/docs/how-to-use-sudo-on-debian-centos-and-freebsd
+http://linux-bsd-sharing.blogspot.com/2009/03/howto-using-sudo-on-freebsd.html
+http://dev-blogs.com/sudo-user-in-freebsd/
