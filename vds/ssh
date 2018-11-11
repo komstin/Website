@@ -1,3 +1,4 @@
+## Ключ:
 С клиентской стороны:
 $ sudo apt install openssh-server openssh-clients
 $ ssh-keygen (passphrase)
@@ -9,3 +10,8 @@ AuthorizedKeysFile .ssh/authorized_keys
 PasswordAuthentication no
 
 # service sshd restart
+
+## Таймауты:
+TCPKeepAlive yes
+ClientAliveInterval 60
+ClientAliveCountMax 360
