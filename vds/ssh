@@ -11,7 +11,7 @@ PasswordAuthentication no
 
 # service sshd restart
 
-## Таймауты:
+## Таймауты (6 часов неактивности):
 TCPKeepAlive yes
 ClientAliveInterval 60
 ClientAliveCountMax 360
