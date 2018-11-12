@@ -1,1 +1,3 @@
-
+# cd /usr/ports/www/nginx
+# make config
+# make install clean
