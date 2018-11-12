@@ -11,3 +11,6 @@
 # pkg version
 или
 # pkg version -l "<"
+
+# portmaster -L
+# portmaster -a
