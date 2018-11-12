@@ -14,3 +14,5 @@
 
 # portmaster -L
 # portmaster -a
+или
+# portmaster -af
