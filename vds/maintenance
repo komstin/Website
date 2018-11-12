@@ -16,3 +16,6 @@
 # portmaster -a
 или
 # portmaster -af
+
+и
+# portmaster --clean-distfiles
