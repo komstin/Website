@@ -5,6 +5,8 @@ https://www.freebsd.org/doc/ru_RU.KOI8-R/books/handbook/ports-using.html
 далее: # portsnap fetch update
 
 portmaster
+# cd /usr/ports/ports-mgmt/portmaster
+# make install clean
 
 Установка из порта:
 
