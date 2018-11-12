@@ -1,3 +1,10 @@
 # cd /usr/ports/www/nginx
 # make config
 # make install clean
+
+
+# nginx -t
+# sysrc nginx_enable=yes
+или
+# echo 'nginx_enable="YES"' >> /etc/rc.conf
+# service nginx start
