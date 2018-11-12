@@ -8,3 +8,6 @@
 
 
 # portsnap fetch update
+# pkg version
+или
+# pkg version -l "<"
