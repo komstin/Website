@@ -2,29 +2,20 @@
 # make install clean
 
 # sysrc mysql_enable=YES
-# sysrc mysql_pidfile=/var/db/mysql/mysql.pid
+# sysrc mysql_pidfile=/var/run/mysql.pid
 # sysrc mysql_optfile=/usr/local/etc/my.cnf
-
-# ls -l /usr/local/share/mysql/my*.cnf:
--rw-r--r--  1 root  wheel   4898 Nov 26 12:56 /usr/local/share/mysql/my-huge.cnf
--rw-r--r--  1 root  wheel  20418 Nov 26 12:56 /usr/local/share/mysql/my-innodb-heavy-4G.cnf
--rw-r--r--  1 root  wheel   4885 Nov 26 12:56 /usr/local/share/mysql/my-large.cnf
--rw-r--r--  1 root  wheel   4898 Nov 26 12:56 /usr/local/share/mysql/my-medium.cnf
--rw-r--r--  1 root  wheel   2824 Nov 26 12:56 /usr/local/share/mysql/my-small.cnf
 
 # mcedit /usr/local/etc/my.cnf
 ---
 ## SERVER ##
 [mysqld]
 datadir                         = /var/db/mysql
- 
-socket                          = /var/db/mysql/mysql.sock
-pid-file                        = /run/mysql/mysql.pid
- 
-log-error                      = /var/db/mysql/mysql-error.log
+socket                          = /var/run/mysql.sock
+pid-file                        = /var/run/mysql.pid
+log-error                      = /var/log/mysql-error.log
 log-queries-not-using-indexes  = 1
 slow-query-log                 = 1
-slow-query-log-file            = /var/db/mysql/mysql-slow.log
+slow-query-log-file            = /var/log/mysql-slow.log
 ---
 
 # service mysql-server start
