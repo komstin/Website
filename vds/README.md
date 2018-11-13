@@ -1,5 +1,5 @@
 ## Обустройство VDS FreeBSD
 
-FirstVDS Улёт: 4 ядра процессор, 4 Гб оперативная память, 120 Гб диск, 1 IP-адрес
+FirstVDS Улёт: 4 Core CPU, 4 Gb RAM, 120 Gb hdd, 1 IP address
 
 OS: FreeBSD-11-amd64
