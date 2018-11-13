@@ -19,6 +19,6 @@ slow-query-log-file            = /var/log/mysql-slow.log
 
 # service mysql-server start
 
-# mysql_secure_installation
+# /usr/local/bin/mysql_secure_installation
 
 ## mysqladmin -S /var/db/mysql/mysql.sock -u root password YOURSECUREPASSWORD
