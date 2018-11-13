@@ -11,12 +11,5 @@
 + https://github.com/purcell/rails-runit
 + https://habrahabr.ru/post/83775/ 
 + https://gist.github.com/czarneckid/4639793
-
-- [-] Install Ruby 2.5.0
-+ /usr/ports/lang/ruby25
-- [ ] Install Ruby on Rails 5.1.4
-+ /usr/ports/www/rubygem-rails5
-- [ ] Install PostgreSQL ? or MariaDB ?
-+ /usr/ports/databases/postgresql96-client, /usr/ports/databases/postgresql96-server
-- [ ] Install Spree app
-- [ ] Deploy seed data
+- [ ] Install FEMP
+- [ ] Install WordPress + WooCommerce
