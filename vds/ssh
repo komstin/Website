@@ -24,3 +24,8 @@ Host *
   ServerAliveInterval 60
 и
 $ chmod 600 ~/.ssh/config
+
+===
+Дополнительно:
+sshfs
+sftp over ssh
