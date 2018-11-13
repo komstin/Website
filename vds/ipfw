@@ -1,0 +1,21 @@
+-> /etc/rc.conf
+firewall_enable="YES"
+firewall_script="/usr/local/etc/ipfw/ipfw.rules"
+--
+-> /usr/local/etc/ipfw/ipfw.rules
+#!/bin/sh -
+
+fwcmd="/sbin/ipfw"
+${fwcmd} -f flush
+${fwcmd} -f queue flush
+${fwcmd} -f pipe flush
+
+${fwcmd} add allow ip from any to any
+--
+
+Скрипт для безопасной настройки ipfw:
+# cp /usr/share/examples/ipfw/change_rules.sh /usr/local/etc/ipfw/change_rules.sh
+# chmod 0700 change_rules.sh
+
+URLs:
+https://serveradmin.ru/freebsd-10-ustanovka-i-nastroyka-web-servera-dlya-razmeshheniya-bloga-wordpress-ch-2/
