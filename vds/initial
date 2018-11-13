@@ -1,6 +1,8 @@
 # passwd
 -> ports
 -> security
+-> user
+-> ssh
 
 mc
 screen
