@@ -1,0 +1,6 @@
+# adduser (+wheel group)
+
+-> &sudo
+
+-> ~/.cshrc
+setenv  EDITOR  mcedit
