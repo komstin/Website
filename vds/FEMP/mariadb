@@ -7,7 +7,6 @@
 
 # mcedit /usr/local/etc/my.cnf
 ---
-## SERVER ##
 [mysqld]
 datadir                         = /var/db/mysql
 socket                          = /var/run/mysql.sock
