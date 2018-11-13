@@ -15,6 +15,8 @@ $ su
 root ALL=(ALL) ALL
 username ALL=(ALL) ALL
 
+-> &ipfw
+
 URLs:
 https://www.vultr.com/docs/how-to-use-sudo-on-debian-centos-and-freebsd
 http://linux-bsd-sharing.blogspot.com/2009/03/howto-using-sudo-on-freebsd.html
