@@ -1,8 +1,8 @@
 - [x] Set TFA for VMmanager 
-- [ ] Change root password 
-- [ ] Create new sudo user for administration + unprivileged (nologin) user for deployment
+- [x] Change root password 
+- [x] Create new sudo user for administration
 - [x] Change SSH port + deny root access
-- [ ] Set key access 
+- [x] Set key access 
 - [x] Deploy FreeBSD Ports
 - [x] Install mc
 + /usr/ports/misc/mc
