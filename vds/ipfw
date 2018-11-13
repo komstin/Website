@@ -1,8 +1,9 @@
 -> /etc/rc.conf
 firewall_enable="YES"
 firewall_script="/usr/local/etc/ipfw/ipfw.rules"
---
+
 -> /usr/local/etc/ipfw/ipfw.rules
+---
 #!/bin/sh -
 
 fwcmd="/sbin/ipfw"
@@ -11,7 +12,9 @@ ${fwcmd} -f queue flush
 ${fwcmd} -f pipe flush
 
 ${fwcmd} add allow ip from any to any
---
+---
+
+ipfw show
 
 Скрипт для безопасной настройки ipfw:
 # cp /usr/share/examples/ipfw/change_rules.sh /usr/local/etc/ipfw/change_rules.sh
