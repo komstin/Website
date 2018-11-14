@@ -5,3 +5,30 @@ make install clean
 cd /usr/ports/lang/php72-extensions
 make config-recursive
 make install clean
+
+# mcedit /usr/local/etc/php-fpm.conf
+---
+[global]
+pid = run/php-fpm.pid
+
+[www]
+user = www
+group = www
+
+# работа через unix сокет, а не tcp, дает небольшой прирост производительности
+listen = /tmp/php-fpm.sock
+# права доступа к сокету
+listen.owner = www
+listen.group = www
+listen.mode = 0660
+
+# как будут создаваться новые рабочие процессы
+pm = dynamic
+# максимальное оличество рабочих процессов
+pm.max_children = 10
+# число запущенных процессов при старте сервера
+pm.start_servers = 2
+# минимальное и максимальное количество процессов в простое
+pm.min_spare_servers = 1
+pm.max_spare_servers = 3
+---
