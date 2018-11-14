@@ -3,5 +3,5 @@ make config
 make install clean
 
 cd /usr/ports/lang/php72-extensions
-make config
+make config-recursive
 make install clean
