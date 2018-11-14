@@ -1,1 +1,7 @@
+cd /usr/ports/lang/php72
+make config
+make install clean
 
+cd /usr/ports/lang/php72-extensions
+make config
+make install clean
