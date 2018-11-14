@@ -5,6 +5,10 @@
 # sysrc mysql_pidfile=/var/run/mysql.pid
 # sysrc mysql_optfile=/usr/local/etc/my.cnf
 
+# service mysql-server start
+
+# /usr/local/bin/mysql_secure_installation
+
 # mcedit /usr/local/etc/my.cnf
 ---
 [mysqld]
@@ -16,9 +20,48 @@ log-queries-not-using-indexes  = 1
 slow-query-log                 = 1
 slow-query-log-file            = /var/log/mysql-slow.log
 ---
+[client]
+port = 3306
+socket = /tmp/mysql.sock
 
-# service mysql-server start
+[mysqld]
+port = 3306
+bind-address = 127.0.0.1
+socket = /tmp/mysql.sock
+skip-external-locking
+key_buffer_size = 256M
+max_allowed_packet = 1M
+table_open_cache = 256
+sort_buffer_size = 1M
+read_buffer_size = 1M
+read_rnd_buffer_size = 4M
+myisam_sort_buffer_size = 64M
+thread_cache_size = 8
+query_cache_size= 16M
+thread_concurrency = 8
+log-bin=mysql-bin
+log=/var/log/mysql.log
+binlog_format=mixed
+server-id = 1
 
-# /usr/local/bin/mysql_secure_installation
+[mysqldump]
+quick
+max_allowed_packet = 16M
 
-## mysqladmin -S /var/db/mysql/mysql.sock -u root password YOURSECUREPASSWORD
+[mysql]
+no-auto-rehash
+
+[myisamchk]
+key_buffer_size = 128M
+sort_buffer_size = 128M
+read_buffer = 2M
+write_buffer = 2M
+
+[mysqlhotcopy]
+interactive-timeout
+
+---
+
+
+URLs:
+http://mariadb.com/kb
