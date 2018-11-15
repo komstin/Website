@@ -5,24 +5,29 @@ $ ssh-keygen (passphrase)
 $ cat ~/.ssh/id_rsa.pub | ssh -p портSSH root@ipАдресСервера "cat >> ~/.ssh/authorized_keys"
 
 С серверной стороны:
--> /etc/ssh/sshd_config
+# mcedit /etc/ssh/sshd_config
+---
 AuthorizedKeysFile .ssh/authorized_keys
 PasswordAuthentication no
+---
 
 # service sshd restart
 
 ## Таймауты (6 часов неактивности):
 С серверной стороны:
--> /etc/ssh/sshd_config
+# mcedit /etc/ssh/sshd_config
+---
 TCPKeepAlive yes
 ClientAliveInterval 60
 ClientAliveCountMax 360
+---
 
 или с клиентской стороны:
--> ~/.ssh/config
+gedit ~/.ssh/config
+---
 Host *
   ServerAliveInterval 60
-и
+---
 $ chmod 600 ~/.ssh/config
 
 ===
