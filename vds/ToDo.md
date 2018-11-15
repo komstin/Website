@@ -13,3 +13,5 @@
 + https://gist.github.com/czarneckid/4639793
 - [ ] Install FEMP
 - [ ] Install WordPress + WooCommerce
+- [ ] Ротация логов nginx
+      http://www.site-motor.ru/docs/freebsd/www_nginx_logs.html
