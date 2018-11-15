@@ -1,0 +1,10 @@
+Оптимизация графики магазину явно не помешает
+
+# mcedit /etc/make.conf
+WITHOUT_X11=YES
+
+# cd /usr/ports/graphics/pecl-imagick/
+# make config-recursive
+# make install clean
+Это установит и graphics/ImageMagick6
+
