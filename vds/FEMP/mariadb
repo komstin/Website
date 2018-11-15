@@ -62,6 +62,13 @@ interactive-timeout
 
 ---
 
+# mysql -u adminusername -p
+mysql> CREATE DATABASE databasename;
+mysql> GRANT ALL PRIVILEGES ON databasename.* TO "wordpressusername"@"localhost" IDENTIFIED BY "password";
+mysql> FLUSH PRIVILEGES;
+mysql> EXIT
+
+mcedit /usr/local/www/
 
 URLs:
 http://mariadb.com/kb
