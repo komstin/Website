@@ -8,3 +8,8 @@ WITHOUT_X11=YES
 # make install clean
 Это установит и graphics/ImageMagick6
 
+Однако, не встало из-за совместимости (версия Python). Пришлось так:
+
+pkg install php72-pecl-imagick
+
+php -m сообщает, что всё в порядке.
