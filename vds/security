@@ -3,6 +3,7 @@ ipfw
 fail2ban
   https://unixskills.ru/node/16
   http://www.site-motor.ru/docs/freebsd/security_fail2ban.html
+  https://forums.freebsd.org/threads/ipfw-and-fail2ban-on-freebsd-11-0.58574/
 sshguard
 Blacklistd
 
