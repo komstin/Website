@@ -2,7 +2,7 @@
 С клиентской стороны:
 $ sudo apt install openssh-server openssh-clients
 $ ssh-keygen (passphrase)
-$ cat ~/.ssh/id_rsa.pub | ssh root@ip-адрес-сервера "cat >> ~/.ssh/authorized_keys"
+$ cat ~/.ssh/id_rsa.pub | ssh -p порт root@ipАдресСервера "cat >> ~/.ssh/authorized_keys"
 
 С серверной стороны:
 -> /etc/ssh/sshd_config
