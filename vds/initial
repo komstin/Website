@@ -11,9 +11,11 @@ $ su
 # cd /usr/ports/security/sudo 
 # make install clean
 # chmod u+w sudoers
--> /usr/local/etc/sudoers
+# mcedit /usr/local/etc/sudoers
+---
 root ALL=(ALL) ALL
 username ALL=(ALL) ALL
+---
 
 -> &ipfw
 
