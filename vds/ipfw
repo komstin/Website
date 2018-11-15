@@ -1,8 +1,10 @@
--> /etc/rc.conf
+# mcedit /etc/rc.conf
+---
 firewall_enable="YES"
 firewall_script="/usr/local/etc/ipfw/ipfw.rules"
+---
 
--> /usr/local/etc/ipfw/ipfw.rules
+# mcedit /usr/local/etc/ipfw/ipfw.rules
 ---
 #!/bin/sh -
 
