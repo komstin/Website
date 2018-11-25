@@ -87,4 +87,5 @@ server {
 # server nginx reload
 
 URLs:
+https://codex.wordpress.org/Nginx
 https://ruhighload.com/Как+настроить+nginx+для+wordpress%3f
