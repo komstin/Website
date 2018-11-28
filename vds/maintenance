@@ -12,6 +12,9 @@
 или
 # pkg version -l "<"
 
+# pkg upgrade
+# pkg autoremove
+
 # portmaster -L
 # portmaster -a
 или
