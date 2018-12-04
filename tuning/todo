@@ -3,4 +3,5 @@ set dns
 move domain
   REG.RU -> firstvds.ru
 
-https://doc.ispsystem.ru/index.php/Настройка_DNSSEC
+DNSSEC
+  https://doc.ispsystem.ru/index.php/Настройка_DNSSEC
