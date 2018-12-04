@@ -1,4 +1,4 @@
-- [x] Set TFA for VMmanager 
+https://github.com/komstin/santehopttver/tree/master/vds- [x] Set TFA for VMmanager 
 - [x] Change root password 
 - [x] Create new sudo user for administration
 - [x] Change SSH port + deny root access
@@ -15,3 +15,5 @@
 - [ ] Install WordPress + WooCommerce
 - [ ] Ротация логов nginx
       http://www.site-motor.ru/docs/freebsd/www_nginx_logs.html
+
+https://doc.ispsystem.ru/index.php/Настройка_DNSSEC
