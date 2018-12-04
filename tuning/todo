@@ -2,3 +2,5 @@ set dns
   https://msk-dns2.hoztnode.net/manager/dnsmgr
 move domain
   REG.RU -> firstvds.ru
+
+https://doc.ispsystem.ru/index.php/Настройка_DNSSEC
