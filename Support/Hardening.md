@@ -16,3 +16,5 @@
 - Sucuri Security
 - TFA
 - WPS Hide Login
+####
+- Решение проблемы смешанного контента (SSL/TLS)
