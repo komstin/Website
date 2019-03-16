@@ -7,6 +7,7 @@
 - X-Content-Type-Options
 - X-Frame-Options
 - X-XSS-Protection
+- маскировка дескридитирующих заголовков
 #### Плагины WP
 - Akismet
 - Audit Log
