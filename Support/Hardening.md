@@ -25,6 +25,7 @@
 - Sucuri Security
 - TFA
 - WPS Hide Login
+- Fullworks Firewall
 #### Защита панели управления
 - Замена адреса входа
 - Отключение редактирования файлов (style.css, functions.php)
