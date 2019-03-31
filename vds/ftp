@@ -1,0 +1,21 @@
+Минимальный вариант - ftpd
+
+# pw useradd -n ftpuser -g ftp -c 1C -d /nonexistent -s /usr/sbin/nologin
+# passwd ftpuser
+
+в /etc/ftpusers - всех ssh-юзеров, а также www
+# echo 'ftpuser /dir/for/ftp' >> /etc/ftpchroot
+
+# mkdir /dir/for/ftp
+# chown 1Cuser:ftp /dir/for/ftp
+
+# echo 'ftpd_enable="YES"' >> /etc/rc.conf
+
+# service ftpd start
+
+И ещё:
+# echo 'DenyUsers ftpuser' >> /etc/ssh/sshd_config
+# service ftpd restart
+
+Проверяем:
+$ ftp localhost
