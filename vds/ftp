@@ -15,7 +15,7 @@
 
 И ещё:
 # echo 'DenyUsers ftpuser' >> /etc/ssh/sshd_config
-# service ftpd restart
+# service sshd restart
 
 Проверяем:
 $ ftp localhost
