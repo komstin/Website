@@ -7,7 +7,7 @@
 # echo 'ftpuser /dir/for/ftp' >> /etc/ftpchroot
 
 # mkdir /dir/for/ftp
-# chown 1Cuser:ftp /dir/for/ftp
+# chown ftpuser:ftp /dir/for/ftp
 
 # echo 'ftpd_enable="YES"' >> /etc/rc.conf
 
