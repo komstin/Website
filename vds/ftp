@@ -1,9 +1,12 @@
 Минимальный вариант - ftpd
 
-# pw useradd -n ftpuser -g ftp -c 1C -d /nonexistent -s /usr/sbin/nologin
+# pw useradd -n ftpuser -g ftp -c 1C -d /dir/for/ftp -s /usr/sbin/nologin
 # passwd ftpuser
 
-в /etc/ftpusers - всех ssh-юзеров, а также www
+Добавить nologin к /etc/shells, иначе будет отказ в соединении:
+# echo '/usr/sbin/nologin' >> /etc/shells
+
+в /etc/ftpusers - добавить всех ssh-юзеров, а также www
 # echo 'ftpuser /dir/for/ftp' >> /etc/ftpchroot
 
 # mkdir /dir/for/ftp
@@ -18,4 +21,4 @@
 # service sshd restart
 
 Проверяем:
-$ ftp localhost
+$ ftp ftpuser@localhost
