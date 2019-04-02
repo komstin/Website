@@ -7,8 +7,9 @@
 - Права доступа файлов
 - Маскировка веб-сервера (Apache, Nginx)
 - Сканирование на вирусы
-- Firewall
-- fail2ban
+- Установка и настройка Firewall
+- Установка и настройка fail2ban
+- Установка и настройка Snort
 #### Защита wp-admin
 #### Защита wp-includes
 #### Защита /wp-content/, /wp-content/plugins/, /wp-content/themes/, /wp-content/uploads/
