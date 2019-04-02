@@ -11,6 +11,7 @@
 - Установка и настройка Firewall
 - Установка и настройка fail2ban
 - Установка и настройка Snort
+- Настройка уровня безопасности системы
 #### Защита wp-admin
 #### Защита wp-includes
 #### Защита /wp-content/, /wp-content/plugins/, /wp-content/themes/, /wp-content/uploads/
