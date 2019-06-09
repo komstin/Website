@@ -13,7 +13,7 @@
 - [Базовая поддержка](https://github.com/komstin/Website/blob/master/Support/Basic.md)
 - [Расширенная поддержка](https://github.com/komstin/Website/blob/master/Support/Extended.md)
 - [Базовая защита](https://github.com/komstin/Website/blob/master/Support/Security.md)
-- Расширенная защита
+- [Расширенная защита](https://github.com/komstin/Website/blob/master/Support/Hardening.md)
 - Развитие сайта
 
 #### Цены
