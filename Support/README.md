@@ -16,6 +16,8 @@
 - [Расширенная защита](https://github.com/komstin/Website/blob/master/Support/Hardening.md)
 - [Развитие сайта](https://github.com/komstin/Website/blob/master/Support/Development.md)
 
+Для обслуживания и технической поддержки сайта постепенно настраивается [автоматизация](https://github.com/komstin/Website/blob/master/Support/Automation.md).
+
 #### Цены
 
 Цена создания сайта начинается *от 120 тысяч рублей*. Скидка *до 50%* может предоставляться при условии дальнейшей долговременной поддержки и обслуживания сайта с ещемесячной оплатой в размере *10%* от цены создания.
