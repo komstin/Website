@@ -11,7 +11,7 @@
 #### Виды поддержки
 
 - [Базовая поддержка](https://github.com/komstin/Website/blob/master/Support/Basic.md)
-- Расширенная поддержка
+- [Расширенная поддержка](https://github.com/komstin/Website/blob/master/Support/Extended.md)
 - Базовая защита
 - Расширенная защита
 - Развитие сайта
