@@ -16,7 +16,7 @@
 - [Расширенная защита](https://github.com/komstin/Website/blob/master/Support/Hardening.md)
 - [Развитие сайта](https://github.com/komstin/Website/blob/master/Support/Development.md)
 
-Для обслуживания и технической поддержки сайта постепенно настраивается [автоматизация](https://github.com/komstin/Website/blob/master/Support/Automation.md).
+В ходе обслуживания и технической поддержки сайта постепенно настраивается [автоматизация](https://github.com/komstin/Website/blob/master/Support/Automation.md).
 
 #### Цены
 
