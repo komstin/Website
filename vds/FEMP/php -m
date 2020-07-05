@@ -44,3 +44,5 @@ zlib
 
 [Zend Modules]
 Zend OPcache
+
+https://make.wordpress.org/hosting/handbook/handbook/server-environment/#php-extensions
